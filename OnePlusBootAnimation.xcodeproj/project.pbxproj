@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EEA406C24EEA3EB00D6F85B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA406B24EEA3EB00D6F85B /* AppDelegate.swift */; };
+		2EEA407024EEA3EB00D6F85B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA406F24EEA3EB00D6F85B /* ViewController.swift */; };
+		2EEA407324EEA3EB00D6F85B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EEA407124EEA3EB00D6F85B /* Main.storyboard */; };
+		2EEA407524EEA3EE00D6F85B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EEA407424EEA3EE00D6F85B /* Assets.xcassets */; };
+		2EEA407824EEA3EE00D6F85B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EEA407624EEA3EE00D6F85B /* LaunchScreen.storyboard */; };
+		2EEA408324EEA3EE00D6F85B /* OnePlusBootAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA408224EEA3EE00D6F85B /* OnePlusBootAnimationTests.swift */; };
+		2EEA408E24EEA3EE00D6F85B /* OnePlusBootAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA408D24EEA3EE00D6F85B /* OnePlusBootAnimationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EEA407F24EEA3EE00D6F85B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EEA406024EEA3EB00D6F85B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EEA406724EEA3EB00D6F85B;
+			remoteInfo = OnePlusBootAnimation;
+		};
+		2EEA408A24EEA3EE00D6F85B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EEA406024EEA3EB00D6F85B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EEA406724EEA3EB00D6F85B;
+			remoteInfo = OnePlusBootAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EEA406824EEA3EB00D6F85B /* OnePlusBootAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnePlusBootAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EEA406B24EEA3EB00D6F85B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EEA406F24EEA3EB00D6F85B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EEA407224EEA3EB00D6F85B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EEA407424EEA3EE00D6F85B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EEA407724EEA3EE00D6F85B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EEA407924EEA3EE00D6F85B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EEA407E24EEA3EE00D6F85B /* OnePlusBootAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnePlusBootAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EEA408224EEA3EE00D6F85B /* OnePlusBootAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePlusBootAnimationTests.swift; sourceTree = "<group>"; };
+		2EEA408424EEA3EE00D6F85B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EEA408924EEA3EE00D6F85B /* OnePlusBootAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnePlusBootAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EEA408D24EEA3EE00D6F85B /* OnePlusBootAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePlusBootAnimationUITests.swift; sourceTree = "<group>"; };
+		2EEA408F24EEA3EE00D6F85B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EEA406524EEA3EB00D6F85B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EEA407B24EEA3EE00D6F85B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EEA408624EEA3EE00D6F85B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EEA405F24EEA3EB00D6F85B = {
+			isa = PBXGroup;
+			children = (
+				2EEA406A24EEA3EB00D6F85B /* OnePlusBootAnimation */,
+				2EEA408124EEA3EE00D6F85B /* OnePlusBootAnimationTests */,
+				2EEA408C24EEA3EE00D6F85B /* OnePlusBootAnimationUITests */,
+				2EEA406924EEA3EB00D6F85B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EEA406924EEA3EB00D6F85B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EEA406824EEA3EB00D6F85B /* OnePlusBootAnimation.app */,
+				2EEA407E24EEA3EE00D6F85B /* OnePlusBootAnimationTests.xctest */,
+				2EEA408924EEA3EE00D6F85B /* OnePlusBootAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EEA406A24EEA3EB00D6F85B /* OnePlusBootAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				2EEA406B24EEA3EB00D6F85B /* AppDelegate.swift */,
+				2EEA406F24EEA3EB00D6F85B /* ViewController.swift */,
+				2EEA407124EEA3EB00D6F85B /* Main.storyboard */,
+				2EEA407424EEA3EE00D6F85B /* Assets.xcassets */,
+				2EEA407624EEA3EE00D6F85B /* LaunchScreen.storyboard */,
+				2EEA407924EEA3EE00D6F85B /* Info.plist */,
+			);
+			path = OnePlusBootAnimation;
+			sourceTree = "<group>";
+		};
+		2EEA408124EEA3EE00D6F85B /* OnePlusBootAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EEA408224EEA3EE00D6F85B /* OnePlusBootAnimationTests.swift */,
+				2EEA408424EEA3EE00D6F85B /* Info.plist */,
+			);
+			path = OnePlusBootAnimationTests;
+			sourceTree = "<group>";
+		};
+		2EEA408C24EEA3EE00D6F85B /* OnePlusBootAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2EEA408D24EEA3EE00D6F85B /* OnePlusBootAnimationUITests.swift */,
+				2EEA408F24EEA3EE00D6F85B /* Info.plist */,
+			);
+			path = OnePlusBootAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EEA406724EEA3EB00D6F85B /* OnePlusBootAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EEA409224EEA3EE00D6F85B /* Build configuration list for PBXNativeTarget "OnePlusBootAnimation" */;
+			buildPhases = (
+				2EEA406424EEA3EB00D6F85B /* Sources */,
+				2EEA406524EEA3EB00D6F85B /* Frameworks */,
+				2EEA406624EEA3EB00D6F85B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnePlusBootAnimation;
+			productName = OnePlusBootAnimation;
+			productReference = 2EEA406824EEA3EB00D6F85B /* OnePlusBootAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EEA407D24EEA3EE00D6F85B /* OnePlusBootAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EEA409524EEA3EE00D6F85B /* Build configuration list for PBXNativeTarget "OnePlusBootAnimationTests" */;
+			buildPhases = (
+				2EEA407A24EEA3EE00D6F85B /* Sources */,
+				2EEA407B24EEA3EE00D6F85B /* Frameworks */,
+				2EEA407C24EEA3EE00D6F85B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EEA408024EEA3EE00D6F85B /* PBXTargetDependency */,
+			);
+			name = OnePlusBootAnimationTests;
+			productName = OnePlusBootAnimationTests;
+			productReference = 2EEA407E24EEA3EE00D6F85B /* OnePlusBootAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EEA408824EEA3EE00D6F85B /* OnePlusBootAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EEA409824EEA3EE00D6F85B /* Build configuration list for PBXNativeTarget "OnePlusBootAnimationUITests" */;
+			buildPhases = (
+				2EEA408524EEA3EE00D6F85B /* Sources */,
+				2EEA408624EEA3EE00D6F85B /* Frameworks */,
+				2EEA408724EEA3EE00D6F85B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EEA408B24EEA3EE00D6F85B /* PBXTargetDependency */,
+			);
+			name = OnePlusBootAnimationUITests;
+			productName = OnePlusBootAnimationUITests;
+			productReference = 2EEA408924EEA3EE00D6F85B /* OnePlusBootAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EEA406024EEA3EB00D6F85B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Vineet Kumar";
+				TargetAttributes = {
+					2EEA406724EEA3EB00D6F85B = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					2EEA407D24EEA3EE00D6F85B = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 2EEA406724EEA3EB00D6F85B;
+					};
+					2EEA408824EEA3EE00D6F85B = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 2EEA406724EEA3EB00D6F85B;
+					};
+				};
+			};
+			buildConfigurationList = 2EEA406324EEA3EB00D6F85B /* Build configuration list for PBXProject "OnePlusBootAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EEA405F24EEA3EB00D6F85B;
+			productRefGroup = 2EEA406924EEA3EB00D6F85B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EEA406724EEA3EB00D6F85B /* OnePlusBootAnimation */,
+				2EEA407D24EEA3EE00D6F85B /* OnePlusBootAnimationTests */,
+				2EEA408824EEA3EE00D6F85B /* OnePlusBootAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EEA406624EEA3EB00D6F85B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EEA407824EEA3EE00D6F85B /* LaunchScreen.storyboard in Resources */,
+				2EEA407524EEA3EE00D6F85B /* Assets.xcassets in Resources */,
+				2EEA407324EEA3EB00D6F85B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EEA407C24EEA3EE00D6F85B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EEA408724EEA3EE00D6F85B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EEA406424EEA3EB00D6F85B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EEA407024EEA3EB00D6F85B /* ViewController.swift in Sources */,
+				2EEA406C24EEA3EB00D6F85B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EEA407A24EEA3EE00D6F85B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EEA408324EEA3EE00D6F85B /* OnePlusBootAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EEA408524EEA3EE00D6F85B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EEA408E24EEA3EE00D6F85B /* OnePlusBootAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EEA408024EEA3EE00D6F85B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EEA406724EEA3EB00D6F85B /* OnePlusBootAnimation */;
+			targetProxy = 2EEA407F24EEA3EE00D6F85B /* PBXContainerItemProxy */;
+		};
+		2EEA408B24EEA3EE00D6F85B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EEA406724EEA3EB00D6F85B /* OnePlusBootAnimation */;
+			targetProxy = 2EEA408A24EEA3EE00D6F85B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EEA407124EEA3EB00D6F85B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EEA407224EEA3EB00D6F85B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EEA407624EEA3EE00D6F85B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EEA407724EEA3EE00D6F85B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EEA409024EEA3EE00D6F85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2EEA409124EEA3EE00D6F85B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EEA409324EEA3EE00D6F85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnePlusBootAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vineet.OnePlusBootAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EEA409424EEA3EE00D6F85B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnePlusBootAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vineet.OnePlusBootAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2EEA409624EEA3EE00D6F85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnePlusBootAnimationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vineet.OnePlusBootAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnePlusBootAnimation.app/OnePlusBootAnimation";
+			};
+			name = Debug;
+		};
+		2EEA409724EEA3EE00D6F85B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnePlusBootAnimationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vineet.OnePlusBootAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnePlusBootAnimation.app/OnePlusBootAnimation";
+			};
+			name = Release;
+		};
+		2EEA409924EEA3EE00D6F85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnePlusBootAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vineet.OnePlusBootAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OnePlusBootAnimation;
+			};
+			name = Debug;
+		};
+		2EEA409A24EEA3EE00D6F85B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnePlusBootAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vineet.OnePlusBootAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OnePlusBootAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EEA406324EEA3EB00D6F85B /* Build configuration list for PBXProject "OnePlusBootAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EEA409024EEA3EE00D6F85B /* Debug */,
+				2EEA409124EEA3EE00D6F85B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EEA409224EEA3EE00D6F85B /* Build configuration list for PBXNativeTarget "OnePlusBootAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EEA409324EEA3EE00D6F85B /* Debug */,
+				2EEA409424EEA3EE00D6F85B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EEA409524EEA3EE00D6F85B /* Build configuration list for PBXNativeTarget "OnePlusBootAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EEA409624EEA3EE00D6F85B /* Debug */,
+				2EEA409724EEA3EE00D6F85B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EEA409824EEA3EE00D6F85B /* Build configuration list for PBXNativeTarget "OnePlusBootAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EEA409924EEA3EE00D6F85B /* Debug */,
+				2EEA409A24EEA3EE00D6F85B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EEA406024EEA3EB00D6F85B /* Project object */;
+}

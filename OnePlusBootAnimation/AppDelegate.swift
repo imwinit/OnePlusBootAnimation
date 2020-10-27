@@ -1,0 +1,30 @@
+//
+//  AppDelegate.swift
+//  OnePlusBootAnimation
+//
+//  Created by Vineet Kumar on 20/08/20.
+//  Copyright © 2020 Vineet Kumar. All rights reserved.
+//
+
+import UIKit
+
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {
+
+    var window: UIWindow?
+
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "ViewController")
+        let navController = UINavigationController(rootViewController: vc)
+        navController.navigationBar.isHidden = true
+        window?.rootViewController = navController
+        window?.makeKeyAndVisible()
+        
+        return true
+    }
+}
+
